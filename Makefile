@@ -33,7 +33,7 @@ clean:
 ########################################################################
 # Move this target to the end of the Makefile to zip up your code 
 # when submitting. Do not submit your .dat files, or directories. 
-# We only want the files that are part of your implementation.
+# We only want the files that are part of your implementation.added
 ########################################################################
 archive:
 	zip $(USER)-a2 $(SOURCES) $(HEADERS) $(README) $(MAKEFILE)
